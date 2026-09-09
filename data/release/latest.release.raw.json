@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 66056,
       "digest": "sha256:5925e6a7b615d784e381e18240a1537d55a42cddad91d21e13c604a40974fe28",
-      "download_count": 48,
+      "download_count": 50,
       "created_at": "2026-06-17T22:24:37Z",
       "updated_at": "2026-06-17T22:24:37Z",
       "browser_download_url": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0-win32.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3567690,
       "digest": "sha256:9840154367f73e9d9c3196f944a121ab4d398d84e921c8fe8fca8a931274aed7",
-      "download_count": 459,
+      "download_count": 460,
       "created_at": "2026-06-17T22:23:58Z",
       "updated_at": "2026-06-17T22:24:01Z",
       "browser_download_url": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz"
