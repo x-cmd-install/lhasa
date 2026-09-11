@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3567690,
       "digest": "sha256:9840154367f73e9d9c3196f944a121ab4d398d84e921c8fe8fca8a931274aed7",
-      "download_count": 466,
+      "download_count": 467,
       "created_at": "2026-06-17T22:23:58Z",
       "updated_at": "2026-06-17T22:24:01Z",
       "browser_download_url": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz"
