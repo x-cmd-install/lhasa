@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3567690,
       "digest": "sha256:9840154367f73e9d9c3196f944a121ab4d398d84e921c8fe8fca8a931274aed7",
-      "download_count": 700,
+      "download_count": 708,
       "created_at": "2026-06-17T22:23:58Z",
       "updated_at": "2026-06-17T22:24:01Z",
       "browser_download_url": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz"
@@ -150,13 +150,13 @@
   "body": " * This release fixes a read overflow in the -pm2- decoder, where a  specially-crafted -pm2- sequence could cause reads from beyond the end of the `copy_decode[]` array. However, it is not believed to be an exploitable bug so this is not a security issue. Thanks to Yukimura / @damseleng for reporting the bug.\r\n * Archived files with empty filenames are now skipped over during extract so that subsequent files can be extracted properly. This allows some files in the Aminet archive to be extracted that were previously only partially extracted (thanks @polluks).\r\n * A minor typo was fixed in the `lha_reader.h` header (thanks @polluks).\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/fragglet/lhasa/releases/341074715/reactions",
-    "total_count": 2,
+    "total_count": 3,
     "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 0,
+    "heart": 1,
     "rocket": 0,
     "eyes": 0
   },
