@@ -1,5 +1,48 @@
-- repo: raspbian_testing
+- repo: deepin_23
   subrepo: main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.3.1
+  origversion: 0.3.1-4
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: deepin_25
+  subrepo: main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.4.0
+  origversion: 0.4.0-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.3.1
+  origversion: 0.3.1-3
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: lhasa
   binnames:
     - lhasa
@@ -8,6 +51,32 @@
   visiblename: lhasa
   version: 0.5.0
   origversion: 0.5.0-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: parabola
+  subrepo: extra
+  srcname: lhasa
+  binname: lhasa
+  visiblename: lhasa
+  version: 0.6.0
+  origversion: 0.6.0-1
+  status: newest
+  summary: Free LZH/LHA archive tool
+  licenses:
+    - ISC
+- repo: pardus_21
+  subrepo: main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.3.1
+  origversion: 0.3.1-3
   status: outdated
   maintainers:
     - jmtd@debian.org
@@ -135,23 +204,8 @@
   status: outdated
   maintainers:
     - jmtd@debian.org
-- repo: deepin_23
-  subrepo: main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.3.1
-  origversion: 0.3.1-4
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: deepin_25
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: lhasa
   binnames:
     - lhasa
@@ -160,34 +214,6 @@
   visiblename: lhasa
   version: 0.4.0
   origversion: 0.4.0-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.3.1
-  origversion: 0.3.1-3
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.5.0
-  origversion: 0.5.0-1
   status: outdated
   maintainers:
     - jmtd@debian.org
@@ -249,23 +275,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - lhasa-libs
-    - lhasa-devel
-    - lhasa-doc
-  visiblename: lhasa
-  version: 0.5.0
-  origversion: 0.5.0-1.fc42
-  status: outdated
-  summary: Free Software LHA implementation
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: lhasa
   binnames:
@@ -282,8 +291,8 @@
     - ISC
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: lhasa
   binnames:
     - lhasa
@@ -291,9 +300,9 @@
     - lhasa-devel
     - lhasa-doc
   visiblename: lhasa
-  version: 0.4.0
-  origversion: 0.4.0-7.fc43
-  status: legacy
+  version: 0.5.0
+  origversion: 0.5.0-1.fc42
+  status: outdated
   summary: Free Software LHA implementation
   licenses:
     - ISC
@@ -316,7 +325,7 @@
     - ISC
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: lhasa
   binnames:
@@ -325,8 +334,8 @@
     - lhasa-devel
     - lhasa-doc
   visiblename: lhasa
-  version: 0.5.0
-  origversion: 0.5.0-1.fc44
+  version: 0.4.0
+  origversion: 0.4.0-7.fc43
   status: legacy
   summary: Free Software LHA implementation
   licenses:
@@ -345,6 +354,23 @@
   version: 0.6.0
   origversion: 0.6.0-1.fc44
   status: newest
+  summary: Free Software LHA implementation
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - lhasa-libs
+    - lhasa-devel
+    - lhasa-doc
+  visiblename: lhasa
+  version: 0.5.0
+  origversion: 0.5.0-1.fc44
+  status: legacy
   summary: Free Software LHA implementation
   licenses:
     - ISC
@@ -387,6 +413,21 @@
   origversion: null
   status: outdated
   summary: LHA archive decompressor
+- repo: parrot
+  subrepo: parrot/main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.4.0
+  origversion: 0.4.0-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
 - repo: homebrew
   srcname: lhasa
   visiblename: lhasa
@@ -435,23 +476,23 @@
   srcname: lhasa
   binname: lhasa
   visiblename: lhasa
-  version: 0.5.0
-  origversion: 0.5.0-1
+  version: 0.3.1
+  origversion: 0.3.1-3
   status: outdated
   summary: Free LZH/LHA archive tool
   licenses:
-    - ISC
+    - custom:ISC
 - repo: manjaro_testing
   subrepo: extra
   srcname: lhasa
   binname: lhasa
   visiblename: lhasa
-  version: 0.5.0
-  origversion: 0.5.0-1
+  version: 0.3.1
+  origversion: 0.3.1-3
   status: outdated
   summary: Free LZH/LHA archive tool
   licenses:
-    - ISC
+    - custom:ISC
 - repo: manjaro_unstable
   subrepo: extra
   srcname: lhasa
@@ -507,26 +548,6 @@
     - s.vanderburg@tudelft.nl
   licenses:
     - ISC
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa0
-    - liblhasa-devel
-    - lhasa-debuginfo
-    - lhasa-debugsource
-  visiblename: lhasa
-  version: 0.3.1
-  origversion: 0.3.1-5
-  status: outdated
-  summary: Free LZH archive tool
-  maintainers:
-    - a.proklov@rosalinux.ru
-  licenses:
-    - ISC license
-  categories:
-    - Archiving/Compression
 - repo: nix_stable_26_05
   srcname: lhasa
   visiblename: lhasa
@@ -603,62 +624,6 @@
     - ISC
   categories:
     - Productivity/Archiving/Compression
-- repo: parabola
-  subrepo: extra
-  srcname: lhasa
-  binname: lhasa
-  visiblename: lhasa
-  version: 0.6.0
-  origversion: 0.6.0-1
-  status: newest
-  summary: Free LZH/LHA archive tool
-  licenses:
-    - ISC
-- repo: pardus_21
-  subrepo: main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.3.1
-  origversion: 0.3.1-3
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.4.0
-  origversion: 0.4.0-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.4.0
-  origversion: 0.4.0-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
 - repo: pkgsrc_2026_2
   srcname: archivers/lhasa
   binname: lhasa
@@ -770,6 +735,41 @@
     - jmtd@debian.org
   categories:
     - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.5.0
+  origversion: 0.5.0-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa0
+    - liblhasa-devel
+    - lhasa-debuginfo
+    - lhasa-debugsource
+  visiblename: lhasa
+  version: 0.3.1
+  origversion: 0.3.1-5
+  status: outdated
+  summary: Free LZH archive tool
+  maintainers:
+    - a.proklov@rosalinux.ru
+  licenses:
+    - ISC license
+  categories:
+    - Archiving/Compression
 - repo: rosa_13
   subrepo: contrib/release
   srcname: lhasa
@@ -846,21 +846,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: lhasa
-  binnames:
-    - lhasa
-    - liblhasa-dev
-    - liblhasa0
-  visiblename: lhasa
-  version: 0.0.7
-  origversion: 0.0.7-2
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - universe/utils
-- repo: ubuntu_14_04
   subrepo: trusty-updates/universe
   srcname: lhasa
   binnames:
@@ -873,6 +858,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/utils
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: lhasa
+  binnames:
+    - lhasa
+    - liblhasa-dev
+    - liblhasa0
+  visiblename: lhasa
+  version: 0.0.7
+  origversion: 0.0.7-2
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
   categories:
     - universe/utils
 - repo: ubuntu_16_04
