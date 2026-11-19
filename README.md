@@ -48,12 +48,12 @@ Total: **9,152** lines of code across **86** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 2 | 1 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 2 | 1 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 2 | 1 | 0 |
-| last180d | 2026-05-21 | 1 | 0 | 0 | 2 | 1 | 2 |
-| 360d | 2025-11-22 | 1 | 0 | 0 | 5 | 1 | 10 |
-| last720d | 2024-11-27 | 2 | 2 | 0 | 11 | 5 | 74 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 1 | 1 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 2 | 1 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 2 | 1 | 0 |
+| last180d | 2026-05-23 | 1 | 0 | 0 | 2 | 1 | 2 |
+| 360d | 2025-11-24 | 1 | 0 | 0 | 5 | 1 | 10 |
+| last720d | 2024-11-29 | 2 | 2 | 0 | 11 | 5 | 74 |
 
 ## Release assets
 
@@ -62,6 +62,24 @@ Total: **9,152** lines of code across **86** files in the top 5 languages.
 | [lhasa-0.6.0-win32.zip](https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0-win32.zip) | 64.5 KiB | `native/win/x64` |
 | [lhasa-0.6.0.tar.gz](https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz) | 3.4 MiB | `native/unknown` |
 | [lhasa-0.6.0.tar.gz.asc](https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz.asc) | 833 B | `other` |
+
+## Distribution status
+
+Reported by **80** distros on [repology.org](https://repology.org/project/lhasa). **25** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.5.0` | ⚠️ outdated |
+| Debian 14 | `0.5.0` | ⚠️ outdated |
+| Debian 13 | `0.4.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.5.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.4.0` | ⚠️ outdated |
+| Arch | `0.6.0` | ✅ latest |
+| Homebrew | `0.6.0` | ✅ latest |
+| Fedora rawhide | `0.6.0` | ✅ latest |
+| Nix unstable | `0.6.0` | ✅ latest |
+| Void | `0.6.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.6.0` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +90,4 @@ Install metadata for lhasa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:56:28Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:22:58Z._
